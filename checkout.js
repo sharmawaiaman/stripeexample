@@ -24,8 +24,7 @@ form.addEventListener("submit", async (event) => {
     //`Elements` instance that was used to create the Payment Element
     elements,
     confirmParams: {
-      return_url: "https://gentle-pond-023891e10.5.azurestaticapps.net/status",
-      description: "Payment for your order",
+      return_url: "https://gentle-pond-023891e10.5.azurestaticapps.net/status"
     },
   });
 
